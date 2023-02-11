@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Silkscreen:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    font-family: 'Silkscreen', cursive;;
+background-color: rgb(134, 134, 134);
+}
+
+.logo{
+    width: 42px;
+    height: 42px;
+    border-radius: 100px ;
+background-color: black;
+margin: 10px;
+}
+
+
+
+header{
+    height: 10vh;
+    display:flex;
+    justify-content:space-between;
+    background-color: rgb(114, 114, 114);
+    box-shadow: 0 0 1rem black;
+}
+
+ul{
+    display: flex;
+margin: 23px;
+}
+li{
+    color: rgb(0, 0, 0);
+    list-style-type: none;
+    cursor: pointer;
+    padding-left:2em ;
+
+}
